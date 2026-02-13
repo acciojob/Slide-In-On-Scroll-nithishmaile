@@ -58,6 +58,9 @@
       };
     }
 
+	   const sliderImages = document.querySelectorAll('.slide-in');
+
+
 	function checkSlide() {
     sliderImages.forEach(sliderImage => {
       // Halfway through the image
@@ -78,7 +81,6 @@
   }
 
   window.addEventListener('scroll', debounce(checkSlide));
-</script>
 
 
 
